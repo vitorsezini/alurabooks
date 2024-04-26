@@ -40,3 +40,34 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+@media screen and (min-width: 1024px) {
+    .cadastro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cadastro__email{
+        width: 30%;
+        height: 25%;
+    }
+    .cadastro__texto{
+        padding-right: 4em;
+    }
+
+    .cadastro__titulo{
+        font-size: 24px;
+    }
+
+    .cadastro__descrição{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .cadastro{
+        padding: 3em 20vw;
+    }
+
+}

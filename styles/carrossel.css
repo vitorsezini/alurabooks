@@ -28,7 +28,7 @@
 .card__descrição{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
 }
 
 .card__botoes{
@@ -48,16 +48,12 @@
     padding: 1em;
 }
 
-.descrição{
-    margin: 0 1em 0 0;
-
-}
 
 .descrição__titulo{
     color: var(--cor--fonte--titulo);
     font-size: 16px;
     font-weight: 700;
-    line-height: 1.0;
+    
 }
 
 .descrição__titulo-livro{
@@ -88,6 +84,84 @@
 
 }
 
+.descrição{
+    margin: 0 1em 0 0;
+
+}
+
+.card__autor{
+    background-color: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+
+}
 .descrição__classificação{
     margin: 0 0 0.5em 0;
+}
+
+@media screen and (min-width: 1728px){
+    .carrossel__titulo{
+        font-size: 26px;
+        padding: 2.3em 0 0.7em 0;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 50%;
+    }
+
+    .card{
+        width: 40%;
+        margin: 3em auto;
+    }
+
+    .card__autor{
+        margin: 3em auto;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+    .carrossel__titulo{
+        font-size: 36px;
+    }
+
+    .carrossel__container{
+        display: flex;
+        margin: 0 15vw 3em 15vw;
+        align-items: center;
+          
+    }
+
+    .swiper{
+        margin-right: 4em;
+        width: 45%;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0 ;
+    }
+
+    .swiper-slide{
+        width: 40%;
+        padding: 0 2em 1em 0;
+    }
+
+    .swiper-slide img{
+        width: 8vw;
+    }
+
+    .descrição__titulo{
+        font-size: 32px;
+    }
+
+    .card{
+        width: 60%;
+    }
+
 }

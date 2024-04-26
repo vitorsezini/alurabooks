@@ -5,6 +5,10 @@
     --cor--fonte--azul: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --cor--azul: #002F52;
+    --fonte--titulo: "Josefin Sans";
+    --preto: #000;
+    --cinza: rgba(71, 70, 70, 1);
+    --cinza--claro:rgba(133, 133, 133, 1);
 
 }
 

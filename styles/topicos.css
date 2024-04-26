@@ -5,7 +5,7 @@
 }
 
 .topicos__titulo{
-    font-size: 16;
+    font-size: 16px;
     font-weight: 300;
     color: var(--branco);
     padding: 1em 0 2em 0;
@@ -28,4 +28,23 @@
     padding: 1em;
     font-size: 16px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 24px;
+    }
+
+    .topicos__botoes{
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topicos{
+        padding: 3em 30vw;
+    }
+    .topicos__items{
+        padding-top: 1em;
+    }
 }
