@@ -144,6 +144,11 @@
 .opções__botao:checked ~ .opções__rotulo > .opções__item{
     background: var(--cor--fonte--azul);
     color: var(--branco);
+    
+}
+
+.opções__rotulo:hover{
+    cursor: pointer;
 }
 
 .opções__item{
